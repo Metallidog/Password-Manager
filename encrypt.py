@@ -84,8 +84,8 @@ def test():
             break
 
 def manual_test():
-    pin = '2757'
-    e = Encrypt('Mygirls', pin)
+    pin = '4321'
+    e = Encrypt('password', pin)
     x = e.build()
     print x
     d = Decrypt(x, pin)
